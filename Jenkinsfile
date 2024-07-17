@@ -9,6 +9,7 @@ pipeline {
                 sh 'whoami'
                 sh 'pwd'
                 sh 'ls -al'
+                sh 'echo "hello"
             }
         }
     }
